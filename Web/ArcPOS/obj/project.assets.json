@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coding\\ArcPOS\\Web\\ArcPOS\\ArcPOS\\ArcPOS.csproj",
+      "projectUniqueName": "D:\\Coding\\ArcPOS\\Web\\ArcPOS\\ArcPOS.csproj",
       "projectName": "ArcPOS",
-      "projectPath": "D:\\Coding\\ArcPOS\\Web\\ArcPOS\\ArcPOS\\ArcPOS.csproj",
+      "projectPath": "D:\\Coding\\ArcPOS\\Web\\ArcPOS\\ArcPOS.csproj",
       "packagesPath": "C:\\Users\\thari\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding\\ArcPOS\\Web\\ArcPOS\\ArcPOS\\obj\\",
+      "outputPath": "D:\\Coding\\ArcPOS\\Web\\ArcPOS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thari\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -496,7 +496,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

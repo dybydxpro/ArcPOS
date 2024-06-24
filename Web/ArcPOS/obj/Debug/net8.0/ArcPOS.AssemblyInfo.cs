@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArcPOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf59d12523bac9ca2f3d1da02250d0e18834eb72")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArcPOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArcPOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

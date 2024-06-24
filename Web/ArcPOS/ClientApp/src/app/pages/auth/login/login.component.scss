@@ -1,0 +1,11 @@
+.login{
+    height: 100vh;
+    background-image: url("./../../../../../public/loginbg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    & > div {
+        width: 70rem;
+    }
+}
