@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "kQffECwp5RE=",
+  "dgSpecHash": "TJEvUO8WnIc=",
   "success": true,
   "projectFilePath": "D:\\Coding\\ArcPOS\\Web\\ArcPOS\\ArcPOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\thari\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\8.0.6\\microsoft.aspnetcore.spaservices.extensions.8.0.6.nupkg.sha512",
     "C:\\Users\\thari\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\thari\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\thari\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0\\microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+    "C:\\Users\\thari\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+    "C:\\Users\\thari\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\thari\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\thari\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\thari\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",

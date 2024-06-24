@@ -44,6 +44,7 @@ app.UseHttpsRedirection();
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseSpaStaticFiles();

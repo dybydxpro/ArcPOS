@@ -1,4 +1,4 @@
 **/.vs
 **/.code
-**/bin
-**/obj
+Web/**/bin/
+Web/**/obj/
