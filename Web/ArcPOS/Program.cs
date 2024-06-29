@@ -1,3 +1,6 @@
+using ArcPOS.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
@@ -10,8 +13,8 @@ builder.Services.AddCors(options =>
         });
 });
 
-//builder.Services.AddDbContext<AuthDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("AuthDbConnectionProd")));
-//builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("AppDbConnectionProd")));
+builder.Services.AddDbContext<AuthDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("AuthDbConnection")));
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("AppDbConnection")));
 
 builder.Services.AddControllers();
 
@@ -27,11 +30,11 @@ var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
-    //var authDbContext = scope.ServiceProvider.GetRequiredService<AuthDbContext>();
-    //authDbContext.Database.Migrate();
+    var authDbContext = scope.ServiceProvider.GetRequiredService<AuthDbContext>();
+    authDbContext.Database.Migrate();
 
-    //var applicationDbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    //applicationDbContext.Database.Migrate();
+    var applicationDbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    applicationDbContext.Database.Migrate();
 }
 
 if (app.Environment.IsDevelopment())
